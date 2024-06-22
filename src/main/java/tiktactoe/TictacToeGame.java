@@ -16,10 +16,10 @@ public class TictacToeGame {
     public void initializeGame(){
         players = new LinkedList<>();
         PlayingPieceX crossPiece =  new PlayingPieceX();
-        Player player1 = new Player("Paul", crossPiece);
+        Player player1 = new Player("Player with X", crossPiece);
 
         PlayingPieceO roundPiece =  new PlayingPieceO();
-        Player player2 = new Player("James", roundPiece);
+        Player player2 = new Player("Player with 0", roundPiece);
 
         players.add(player1);
         players.add(player2);
